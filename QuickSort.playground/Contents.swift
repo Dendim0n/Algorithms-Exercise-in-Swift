@@ -39,13 +39,5 @@ class Solution {
             QuickSort(list: &list, first: i + 1, last: last)
         }
     }
-    
-    func partition(list: inout [Int],first: Int, last: Int) -> Int {
-        let key = list[last];
-        var i = first,j = last;
-        while i < j {
-            
-        }
-    }
 }
 
